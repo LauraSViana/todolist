@@ -1,0 +1,68 @@
+.todolist {
+  width: 95vh;
+  height: 500px;
+  margin: 0 auto;
+}
+#todo {
+  margin-top: 20px;
+  font-size: 30px;
+  border: solid;
+}
+.label {
+  display: inline-block;
+  margin: 10px 20px;
+}
+#newtodo {
+  margin-left: 6%;
+  margin-right: 2%;
+  width: 450px;
+  height: 20px;
+}
+.btn {
+  border-style: none;
+  background-image: url(./img/delete_FILL0_wght400_GRAD0_opsz48.png);
+  background-color: transparent; /* make the button transparent */
+  background-repeat: no-repeat; /* make the background image appear only once */
+  background-size: 23px;
+  cursor: pointer; /* make the cursor like hovering over an <a> element */
+  height: 28px;
+  margin: -10px auto;
+  letter-spacing: 0px;
+  display: inline-flex;
+  padding: 0px 10px;
+  text-align: center;
+  border-image: none;
+  appearance: unset;
+  writing-mode: unset;
+  word-spacing: 0%;
+  flex-wrap: unset;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  font-size: 15px;
+  padding-top: 8px;
+  margin-left: -35px;
+  text-decoration: none;
+}
+.button {
+  border-style: none;
+  background-image: url(./img/done_FILL0_wght400_GRAD0_opsz48.png);
+  background-color: transparent; /* make the button transparent */
+  background-repeat: no-repeat; /* make the background image appear only once */
+  background-size: 23px;
+  cursor: pointer; /* make the cursor like hovering over an <a> element */
+  height: 28px;
+  margin: -10px auto;
+  letter-spacing: 0px;
+  display: inline-flex;
+  padding: 0px 10px;
+  text-align: center;
+  border-image: none;
+  appearance: unset;
+  writing-mode: unset;
+  word-spacing: 0%;
+  flex-wrap: unset;
+}
